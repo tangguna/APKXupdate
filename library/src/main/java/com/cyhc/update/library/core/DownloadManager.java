@@ -119,7 +119,6 @@ public class DownloadManager {
 
             @Override
             public void onDownloading(int progress) {
-                ALog.e("downloadProgress:" + progress + "");
                 int currentProgress = progress;
 //                showLoadingDialog(currentProgress);
                 listener.onCheckerDownloading(currentProgress);
