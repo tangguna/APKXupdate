@@ -49,7 +49,7 @@ public class NotificationHelper {
      */
     public void updateNotification(int progress) {
         if (versionBuilder.isShowNotification()) {
-            if ((progress - currentProgress) > 1 &&!isDownloadSuccess&&!isFailed) {
+            if ((progress - currentProgress) > 0 &&!isDownloadSuccess&&!isFailed) {
                 notificationBuilder.setContentIntent(null);
                 notificationBuilder.setContentText(String.format(contentText, progress));
                 notificationBuilder.setProgress(100, progress, false);

@@ -27,8 +27,8 @@ public class UIData {
 
     private UIData() {
         versionBundle = new Bundle();
-        versionBundle.putString(TITLE, "by `UIData.setTitle()` to set your update title");
-        versionBundle.putString(CONTENT, "by `UIData.setContent()` to set your update content ");
+//        versionBundle.putString(TITLE, "by `UIData.setTitle()` to set your update title");
+//        versionBundle.putString(CONTENT, "by `UIData.setContent()` to set your update content ");
     }
 
     public UIData setTitle(String title) {
